@@ -2,7 +2,7 @@
 
 </br>
 
-<img src="src/main/resources/images/TimeTrack_Hauptmenü.png" alt="TimeTrack-Hauptmenü" title="TimeTrack-Hauptmenü">
+<img src="src/main/resources/images/TimeTrack_Hauptmenu.png" alt="TimeTrack-Hauptmenu" title="TimeTrack-Hauptmenu">
 
 <h2>Die Vision</h2>
 
