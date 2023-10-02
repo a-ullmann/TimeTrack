@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.ullmann.timetrack.controllers.AnwesenheitController"
+            prefHeight="600.0" prefWidth="800.0">
+
+    <VBox spacing="20" AnchorPane.topAnchor="20" AnchorPane.bottomAnchor="20" AnchorPane.leftAnchor="20" AnchorPane.rightAnchor="20">
+        <Label fx:id="mitarbeiterNameLabel" styleClass="headerLabel"/>
+        <TableView fx:id="anwesenheitTable" styleClass="table" VBox.vgrow="ALWAYS">
+            <columns>
+                <TableColumn fx:id="mitarbeiterIDColumn" text="Mitarbeiter ID" />
+                <TableColumn fx:id="checkInColumn" text="Check In" />
+                <TableColumn fx:id="checkOutColumn" text="Check Out" />
+                <TableColumn fx:id="workedHoursColumn" text="Stunden Gearbeitet" />
+            </columns>
+        </TableView>
+        <HBox spacing="10" alignment="CENTER">
+            <Button fx:id="addButton" text="Hinzufügen" styleClass="actionButton" onAction="#handleAdd"/>
+            <Button fx:id="editButton" text="Bearbeiten" styleClass="actionButton" onAction="#handleEdit" />
+            <Button fx:id="deleteButton" text="Löschen" styleClass="actionButton" onAction="#handleDelete"/>
+            <Separator orientation="VERTICAL"/>
+            <Button fx:id="downloadButton" text="Download Report" styleClass="secondaryButton" onAction="#handleDownloadReport"/>
+            <Button fx:id="closeButton" text="Schließen" styleClass="actionButton" onAction="#handleCloseButton"/>
+        </HBox>
+    </VBox>
+
+</AnchorPane>
