@@ -23,13 +23,12 @@ TimeTrack ist ein einmonatiges Projekt das mit der Java-Programmiersprache entwi
 <h2>Grobe Spezifikation</h2>
 
 
-</br>
 <h4>Zusammenhang mit bereits bestehenden Systemen</h4>
 
 
 TimeTrack ist ein eigenständiges System mit Ausnahme des Datenbankmanagement, welches mit SQLite entwickelt wird. Es benötigt keine Integration in andere Systeme und ist somit einfacher in Unternehmen zu implementieren.
 
-TimeTrack besteht aus Funktionen wie Verwaltung von Mitarbeiterinformationen, Anwesenheitsverfolgung und Abwesenheitsverfolgung. Funktionen die TimeTrack nicht bietet sind weitere Aspekte der Personalverwaltung wie Gehaltsberechnung oder Rekrutierung. Noch dazu ist der Vorteil, dass TimeTrack ein eigenständiges Programm ist, auch ein Nachteil, da es mit keinen bestehenden Anwendungen verbunden werden kann. 
+Das Programm besteht aus Funktionen wie Verwaltung von Mitarbeiterinformationen, Anwesenheitsverfolgung und Abwesenheitsverfolgung. Funktionen die TimeTrack nicht bietet sind weitere Aspekte der Personalverwaltung wie Gehaltsberechnung oder Rekrutierung. Noch dazu ist der Vorteil, dass TimeTrack ein eigenständiges Programm ist, auch ein Nachteil, da es mit keinen bestehenden Anwendungen verbunden werden kann. 
 
 </br>
 <h4>Schnittstellen</h4>
@@ -43,27 +42,25 @@ TimeTrack wird mit einer relationalen Datenbank erstellt und verwendet SQL um mi
 
 TimeTrack soll als Werkzeug für die Personalverwaltung dienen, um effizientere und einfachere Prozesse zu gestalten. 
 
-</br>
+
 Mitarbeiterinformationen:
 Erfassung und Verwaltung von Daten der Mitarbeiter.
 Aktualisierung der Informationen.
 Suche nach bestimmten Mitarbeitern.
 
-</br>
+
 Anwesenheitsverfolgung:
 Mitarbeiter können bei Dienstbeginn oder Dienstende ein- und auschecken.
 Überwachung der Gesamtstunden und Abwesenheit.
 
-</br>
+
 Abwesenheitsverfolgung:
 Mitarbeiter können Urlaubsanträge stellen.
 Manager können diese Anträge genehmigen oder ablehnen.
 Mitarbeiter können sich krank melden und diesbezüglich notwendige Dokumente hochladen.
 Überblick der Urlaubstage und Krankenstände.
 
-<h2></h2>
-<h4></h4>
-
+</br>
 <h4>Wesentliche Qualitätsanforderungen und Rahmenbedingungen</h4>
 
 </br>
@@ -82,7 +79,8 @@ Skalierbarkeit: Die Anwendung soll in der Lage sein, sehr viele Mitarbeiterdaten
 </br>
 Rahmenbedingungen:
 Projektdauer: Die geplante Entwicklung liegt bei einem Monat.
-Ressourcen: Die Anwendung wird von mir selbst entwickelt, mit meinen Java Kenntnissen und Erfahrungen mit relationalen Datenbanken, die ich im Java Kurs vom WIFI mir angeeignet habe. 
+Ressourcen: Die Anwendung wird von mir selbst entwickelt, mit meinen Java Kenntnissen und Erfahrungen mit relationalen Datenbanken, die ich im Java Kurs vom WIFI mir angeeignet habe.
+
 
 </br>
 <h2>Detaillierte Spezifikation</h2>
@@ -91,18 +89,18 @@ Ressourcen: Die Anwendung wird von mir selbst entwickelt, mit meinen Java Kenntn
 <h4>Akteure des Systems (Personas) </h4>
 
 Mitarbeiter
+
 Management 
 
+</br>
 <h4>Detaillierte Funktionale Anforderungen (Szenarios & Screens)</h4>
 
 <h5>Mitarbeiterinformationen</h5>
-<h5></h5>
 
-
-Erfassung: Mitarbeiterinformationen wie Name, ID, Kontaktinformationen, Position, und Anstellungsdatum sollen hier erfasst werden. 
-Suche: Benutzer soll nach spezifischen Mitarbeitern suchen können. 
-Aktualisierung: Mitarbeiterinformationen können bearbeitet und aktualisiert werden. 
-Löschen: Individuelle Mitarbeiter soll man löschen können.
+<b>Erfassung:</b> Mitarbeiterinformationen wie Name, ID, Kontaktinformationen, Position, und Anstellungsdatum sollen hier erfasst werden.
+<b>Suche:</b> Benutzer soll nach spezifischen Mitarbeitern suchen können. 
+<b>Aktualisierung:</b> Mitarbeiterinformationen können bearbeitet und aktualisiert werden.
+<b>Löschen:</b> Individuelle Mitarbeiter soll man löschen können.
 
 <h5>Anwesenheitsverfolgung</h5>
 Einchecken/Auschecken: Mitarbeiter können ihre täglichen Dienstzeiten registrieren indem sie sich an- und abmelden.
@@ -119,7 +117,7 @@ Genehmigung: Manager kann diese genehmigen oder ablehnen.
 Leistungsindikatoren: Festlegung der KPIs (z.B. gelöste Tickets pro Tag)
 Bewertung: Eine Möglichkeit für Manager um Feedback zu geben. 
 
-
+</br>
 <h4>Schnittstellen</h4>
 
 Datenbankschnittstelle:
@@ -134,31 +132,42 @@ Verschiedene Ansichten die Funktionen repräsentieren.
 
 Siehe beiliegende Datei (im Ordner “readMe” -> “TimeTrack-Wireframe.png”)
 
+</br>
 <h4>Nicht-Funktionale Anforderungen</h4>
 
-Vorgaben zu Hardware und Software
+
+<h5>Vorgaben zu Hardware und Software</h5>
+
 
 Hardwarevorgaben gibt es wenige da die Anwendung nicht viel beansprucht. Jedoch sollte es genügend Speicherplatz geben, um Daten speichern zu können. 
 
 Die Software-Umgebung dieser Anwendung entsteht aus Java JDK, IntelliJ IDEA und einer SQLite Datenbank. 
 
-Security & Safety
+
+<h5>Security & Safety</h5>
+
 
 Authentifizierung: Nutzer registrieren sich und erstellen somit ihr eigenes Passwort welches gehasht und gesalted wird. Nur authentifizierte Nutzer können auf das System zugreifen.
 Autorisierung: Mitarbeiter können nur ihre eigenen Daten sehen. Manager haben erweiterte Berechtigungen und können alle Mitarbeiterdaten abrufen sowie bearbeiten. 
 
-Systemabgrenzung, Systemarchitektur und Datenhaltung
+</br>
+<h4>Systemabgrenzung, Systemarchitektur und Datenhaltung</h4>
+
 
 TimeTrack ist als Standalone-Applikation konzipiert. Es bietet den Benutzern (Mitarbeiter und Manager) die Möglichkeit, Arbeitszeiten zu erfassen und überwachen. 
 
 Datenbankschnittstelle: Das System greift auf eine zentrale Datenbank zu, in der sich alle relevanten Daten gespeichert werden 
 
 Datenbankarchitektur:
+
+<img src="/Users/alexu/WIFI-Java/Abschlussprojekt/TimeTrack/TimeTrack/src/main/resources/images/Datenbankarchitektur.png" alt="Datenbankarchitektur" title="Datenbankarchitektur">
+
 Das System verwendet eine relationale Datenbank zur Speicherung aller relevanten Daten und besteht aus Tabellen für Anwesenheit, Mitarbeiter und Urlaub.
 
-Klassendiagramm:
 
-Rahmenbedingungen
+</br>
+<h4>Rahmenbedingungen</h4>
+
 
 
 Technologische Vorgaben
@@ -179,7 +188,8 @@ Wichtige Produktmerkmale
 Die Software muss eine Benutzerverwaltung ermöglichen, einschließlich Rollenbasierendem Zugriff.
 Es muss möglich sein, Berichte basierend auf den gespeicherten Daten zu generieren. 
 
-Nicht enthalten
+
+<b>Nicht enthalten</b>
 Integration mit anderen Softwareprodukten. 
 Schulungen oder Workshops für Endbenutzer.
 
