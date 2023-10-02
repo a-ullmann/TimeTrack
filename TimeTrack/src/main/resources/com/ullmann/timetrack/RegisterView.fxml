@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.ullmann.timetrack.controllers.RegisterController"
+            prefHeight="400.0" prefWidth="800.0">
+
+    <VBox spacing="20" alignment="CENTER" AnchorPane.topAnchor="20" AnchorPane.bottomAnchor="20" AnchorPane.leftAnchor="20" AnchorPane.rightAnchor="20">
+        <Label fx:id="registerHeader" text="Registration" styleClass="headerLabel" />
+        <VBox spacing="10">
+            <HBox spacing="10">
+                <Label text="Username:" styleClass="inputLabel" />
+                <TextField fx:id="usernameField" styleClass="inputField" />
+            </HBox>
+            <HBox spacing="10">
+                <Label text="Password:" styleClass="inputLabel" />
+                <PasswordField fx:id="passwordField" styleClass="inputField" />
+            </HBox>
+            <HBox spacing="10">
+                <Label text="Confirm Password:" styleClass="inputLabel" />
+                <PasswordField fx:id="confirmPasswordField" styleClass="inputField" />
+            </HBox>
+            <HBox spacing="10">
+                <Label text="Vorname:" styleClass="inputLabel" />
+                <TextField fx:id="vornameField" styleClass="inputField" />
+            </HBox>
+            <HBox spacing="10">
+                <Label text="Nachname:" styleClass="inputLabel" />
+                <TextField fx:id="nachnameField" styleClass="inputField" />
+            </HBox>
+            <HBox spacing="10">
+                <Label text="Position:" styleClass="inputLabel" />
+                <ComboBox fx:id="positionComboBox" styleClass="inputField" />
+            </HBox>
+            <HBox spacing="10">
+                <Label text="Abteilung:" styleClass="inputLabel" />
+                <ComboBox fx:id="abteilungComboBox" styleClass="inputField" />
+            </HBox>
+        </VBox>
+        <HBox spacing="20" alignment="CENTER">
+            <Button fx:id="registerButton" text="Register" styleClass="actionButton" onAction="#handleRegister" />
+            <Button fx:id="backButton" text="Zurück" styleClass="actionButton" onAction="#handleBack" />
+        </HBox>
+    </VBox>
+
+</AnchorPane>
