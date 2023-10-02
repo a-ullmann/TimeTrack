@@ -44,6 +44,7 @@ TimeTrack wird mit einer relationalen Datenbank erstellt und verwendet SQL um mi
 
 TimeTrack soll als Werkzeug für die Personalverwaltung dienen, um effizientere und einfachere Prozesse zu gestalten. 
 
+
 Mitarbeiterinformationen:
 Erfassung und Verwaltung von Daten der Mitarbeiter.
 Aktualisierung der Informationen.
@@ -59,15 +60,20 @@ Manager können diese Anträge genehmigen oder ablehnen.
 Mitarbeiter können sich krank melden und diesbezüglich notwendige Dokumente hochladen.
 Überblick der Urlaubstage und Krankenstände.
 
+<h2></h2>
+<h4></h4>
 
-Wesentliche Qualitätsanforderungen und Rahmenbedingungen
+<h4>Wesentliche Qualitätsanforderungen und Rahmenbedingungen</h4>
 
-Technologische Vorgaben:Sprache: Java sowie JavaFX Frameworks für die Benutzeroberfläche.
+
+Technologische Vorgaben:
+Sprache: Java sowie JavaFX Frameworks für die Benutzeroberfläche.
 Datenbanksystem: Es wird SQLite verwendet, eine relationale Datenbank.
 Entwicklungsumgebung: IntelliJ IDEA.
 Betriebsystem: Die Anwendung sollte auf Windows, macOS und Linux funktionieren.
 
-Nicht-funktionale Anforderungen:Benutzerfreundlichkeit: Das System sollte eine intuitive Benutzeroberfläche haben und einfach zu benützen sein.
+Nicht-funktionale Anforderungen:
+Benutzerfreundlichkeit: Das System sollte eine intuitive Benutzeroberfläche haben und einfach zu benützen sein.
 Performance: Es soll schnell sein und mit großen Mengen von Mitarbeiterdaten umgehen. 
 Skalierbarkeit: Die Anwendung soll in der Lage sein, sehr viele Mitarbeiterdaten aufzunehmen, ohne Leistung zu verlieren. 
 
@@ -75,11 +81,9 @@ Rahmenbedingungen:
 Projektdauer: Die geplante Entwicklung liegt bei einem Monat.
 Ressourcen: Die Anwendung wird von mir selbst entwickelt, mit meinen Java Kenntnissen und Erfahrungen mit relationalen Datenbanken, die ich im Java Kurs vom WIFI mir angeeignet habe. 
 
+</br>
+<h2>Detaillierte Spezifikation</h2>
 
-
-
-
-Detaillierte Spezifikation
 
 Akteure des Systems (Personas) 
 
@@ -122,7 +126,7 @@ Benutzerschnittstellen (GUI)
 Siehe beiliegende Datei (im Ordner “readMe” -> “TimeTrack-Wireframe.png”)
 
 
-Nicht-Funktionale Anforderungen
+Nicht-Funktionale Anforderungen 
 Vorgaben zu Hardware und Software
 
 Hardwarevorgaben gibt es wenige da die Anwendung nicht viel beansprucht. Jedoch sollte es genügend Speicherplatz geben, um Daten speichern zu können. 
