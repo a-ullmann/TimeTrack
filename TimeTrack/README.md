@@ -1,8 +1,6 @@
 # JAVA Project - TimeTrack
 
 </br>
-<h2>Inhaltsverzeichnis</h2>
-</br>
 
 <h2>Die Vision</h2>
 
@@ -25,7 +23,7 @@ TimeTrack ist ein einmonatiges Projekt das mit der Java-Programmiersprache entwi
 <h2>Grobe Spezifikation</h2>
 
 
-
+</br>
 <h4>Zusammenhang mit bereits bestehenden Systemen</h4>
 
 
@@ -33,27 +31,30 @@ TimeTrack ist ein eigenständiges System mit Ausnahme des Datenbankmanagement, w
 
 TimeTrack besteht aus Funktionen wie Verwaltung von Mitarbeiterinformationen, Anwesenheitsverfolgung und Abwesenheitsverfolgung. Funktionen die TimeTrack nicht bietet sind weitere Aspekte der Personalverwaltung wie Gehaltsberechnung oder Rekrutierung. Noch dazu ist der Vorteil, dass TimeTrack ein eigenständiges Programm ist, auch ein Nachteil, da es mit keinen bestehenden Anwendungen verbunden werden kann. 
 
-
+</br>
 <h4>Schnittstellen</h4>
 
 
 TimeTrack wird mit einer relationalen Datenbank erstellt und verwendet SQL um mit dieser zu interagieren. 
 
+</br>
 <h4>Überblick über die geforderte Funktionalität</h4>
 
 
 TimeTrack soll als Werkzeug für die Personalverwaltung dienen, um effizientere und einfachere Prozesse zu gestalten. 
 
-
+</br>
 Mitarbeiterinformationen:
 Erfassung und Verwaltung von Daten der Mitarbeiter.
 Aktualisierung der Informationen.
 Suche nach bestimmten Mitarbeitern.
 
+</br>
 Anwesenheitsverfolgung:
 Mitarbeiter können bei Dienstbeginn oder Dienstende ein- und auschecken.
 Überwachung der Gesamtstunden und Abwesenheit.
 
+</br>
 Abwesenheitsverfolgung:
 Mitarbeiter können Urlaubsanträge stellen.
 Manager können diese Anträge genehmigen oder ablehnen.
@@ -65,18 +66,20 @@ Mitarbeiter können sich krank melden und diesbezüglich notwendige Dokumente ho
 
 <h4>Wesentliche Qualitätsanforderungen und Rahmenbedingungen</h4>
 
-
+</br>
 Technologische Vorgaben:
 Sprache: Java sowie JavaFX Frameworks für die Benutzeroberfläche.
 Datenbanksystem: Es wird SQLite verwendet, eine relationale Datenbank.
 Entwicklungsumgebung: IntelliJ IDEA.
 Betriebsystem: Die Anwendung sollte auf Windows, macOS und Linux funktionieren.
 
+</br>
 Nicht-funktionale Anforderungen:
 Benutzerfreundlichkeit: Das System sollte eine intuitive Benutzeroberfläche haben und einfach zu benützen sein.
 Performance: Es soll schnell sein und mit großen Mengen von Mitarbeiterdaten umgehen. 
 Skalierbarkeit: Die Anwendung soll in der Lage sein, sehr viele Mitarbeiterdaten aufzunehmen, ohne Leistung zu verlieren. 
 
+</br>
 Rahmenbedingungen:
 Projektdauer: Die geplante Entwicklung liegt bei einem Monat.
 Ressourcen: Die Anwendung wird von mir selbst entwickelt, mit meinen Java Kenntnissen und Erfahrungen mit relationalen Datenbanken, die ich im Java Kurs vom WIFI mir angeeignet habe. 
@@ -84,13 +87,13 @@ Ressourcen: Die Anwendung wird von mir selbst entwickelt, mit meinen Java Kenntn
 </br>
 <h2>Detaillierte Spezifikation</h2>
 
-
-Akteure des Systems (Personas) 
+</br>
+<h4>Akteure des Systems (Personas) </h4>
 
 Mitarbeiter
 Management 
 
-Detaillierte Funktionale Anforderungen (Szenarios & Screens)
+<h4>Detaillierte Funktionale Anforderungen (Szenarios & Screens)</h4>
 
 Mitarbeiterinformationen
 Erfassung: Mitarbeiterinformationen wie Name, ID, Kontaktinformationen, Position, und Anstellungsdatum sollen hier erfasst werden. 
@@ -177,7 +180,9 @@ Schulungen oder Workshops für Endbenutzer.
 Geforderte Meilensteine und Liefertermine
 Erster funktionsfähiger Prototyp: 22.09.2023
 Finale Version: 29.09.2023
-Begriffsbestimmungen und Abkürzungen
+
+</br>
+<h2>Begriffsbestimmungen und Abkürzungen</h2>
 
 
 
@@ -196,8 +201,8 @@ Begriffsbestimmungen und Abkürzungen
 
 
 
-
-Benutzerhandbuch
+</br>
+<h2>Benutzerhandbuch</h2>
 
 1. Erste Schritte
 1.1. Systemanforderungen
