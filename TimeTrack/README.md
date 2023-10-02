@@ -211,50 +211,67 @@ Finale Version: 29.09.2023
 <h2>Benutzerhandbuch</h2>
 
 1. Erste Schritte
+
 1.1. Systemanforderungen
 	Java Runtime Environment (JRE) installiert
 	Datenbankverbindung eingerichtet
+
 1.2. Installation
 	Die Software wird als Java-Anwendung geliefert. Stellen Sie sicher, dass die JRE installiert ist und führen Sie die Anwendung aus.
 
+
 2. Anmelden
+
 	Nach dem Starten der Software wird ein Anmeldebildschirm angezeigt:
+
 2.1. Anmeldung
 	Geben Sie Ihren Benutzernamen und Ihr Passwort ein.
 	Klicken Sie auf "Login".
+  
 	Wenn Ihre Daten korrekt sind, werden Sie zum Hauptbildschirm weitergeleitet.
+
 2.2. Neues Profil Erstellen
 	Klicken Sie auf "Registrieren".
 	Folgen Sie den Anweisungen, um ein neues Profil zu erstellen.
 
 3. Hauptbildschirm
-	Abhängig von Ihrer Position (z. B. Manager) haben Sie möglicherweise unterschiedliche 		Ansichten und Funktionen.
+
+	Abhängig von Ihrer Position (z. B. Manager) haben Sie möglicherweise unterschiedliche Ansichten und Funktionen.
+
 3.1. Arbeitszeit Verfolgen (für alle Benutzer)
-	Wählen Sie “Check in” um das Datum und die Uhrzeit für den Beginn Ihrer Arbeitszeit 		zu registrieren. Wählen Sie “Check out” um das Ende Ihrer Arbeitszeit zu protokollieren. 	Das System berechnet Ihre gearbeiteten Stunden. Vergangene Arbeitszeiten können mit  	“Download Report” als CSV Datei heruntergeladen werden.
+	Wählen Sie “Check in” um das Datum und die Uhrzeit für den Beginn Ihrer Arbeitszeit zu registrieren. Wählen Sie “Check out” um das Ende Ihrer Arbeitszeit zu protokollieren. 	Das System berechnet Ihre gearbeiteten Stunden. Vergangene Arbeitszeiten können mit “Download Report” als CSV Datei heruntergeladen werden.
+
 3.2. Überwachung der Arbeitszeit (nur für Manager)
 	Sie können eine Liste aller Mitarbeiter sehen und ihre Arbeitszeitdetails überprüfen.
-	Es ist möglich, die Daten zu bearbeiten, falls Änderungen erforderlich sind, oder auch 		löschen und hinzufügen.
+	Es ist möglich, die Daten zu bearbeiten, falls Änderungen erforderlich sind, oder auch löschen und hinzufügen.
+
 3.3. Urlaub beantragen (für alle Benutzer)
 	Im Hauptmenü können Sie auf “Urlaub beantragen” klicken. 
-	Wählen Sie in diesem View das Datum und die Uhrzeit für den Beginn und das Ende 			Ihres Urlaubes.
-	Klicken Sie auf “Beantragen”. Ihr Manager wird diesen dann entweder bestätigen, 			verewigen, oder auf ausstehend setzten. 
+	Wählen Sie in diesem View das Datum und die Uhrzeit für den Beginn und das Ende Ihres Urlaubes.
+	Klicken Sie auf “Beantragen”. Ihr Manager wird diesen dann entweder bestätigen, verewigen, oder auf ausstehend setzten. 
 	Sie werden über den Status benachrichtig, indem ein Button im Urlaub Menü erscheint. 
+
 3.4. Überwachung der Urlaube (nur für Manager)
-	Sie können eine Liste aller Mitarbeiter sehen und ihre Urlaubsanträge überprüfen und 		darauf auch reagieren.
+	Sie können eine Liste aller Mitarbeiter sehen und ihre Urlaubsanträge überprüfen und darauf auch reagieren.
 	Der Mitarbeiter wird benachrichtigt, sobald sich der Status des Antrages geändert hat. 
-	
+
+
 4. Bearbeiten der Tabellen
+
 	Es können beide Tabellen (Arbeitszeit- und Urlaubstabelle) bearbeitet werden
+
 4.1. Aktivieren des Bearbeitungsmodus
 	Klicken Sie auf "Bearbeiten", um die Tabelle bearbeitbar zu machen.
+
 4.2. Ändern von Arbeitszeit- oder Urlaubsdaten
 	Doppelklicken Sie auf einen Eintrag in der Tabelle.
 	Geben Sie die neuen Daten ein.
-	Klicken Sie auf "Speichern", um die Änderungen zu speichern und den 					Bearbeitungsmodus zu verlassen.
-
+	Klicken Sie auf "Speichern", um die Änderungen zu speichern und den Bearbeitungsmodus zu verlassen.
 
 5. Beenden der Software
-Schließen Sie einfach das Hauptfenster, um die Anwendung zu beenden. Sie können sich jedoch auch abmelden, indem Sie auf “Logout” klicken. 
+
+  Schließen Sie einfach das Hauptfenster, um die Anwendung zu beenden. Sie können sich jedoch auch abmelden, indem Sie auf “Logout” klicken. 
 
 6. Support und Hilfe
-Bei technischen Problemen oder Fragen zur Software wenden Sie sich bitte an den Support bei Alexander Ullmann
+
+  Bei technischen Problemen oder Fragen zur Software wenden Sie sich bitte an den Support bei Alexander Ullmann
