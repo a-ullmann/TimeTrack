@@ -173,7 +173,7 @@ Datenbankschnittstelle: Das System greift auf eine zentrale Datenbank zu, in der
 
 Datenbankarchitektur:
 
-<img src="TimeTrack/src/main/resources/images/Datenbankarchitektur.png" alt="Datenbankarchitektur" title="Datenbankarchitektur">
+<img src="src/main/resources/images/Datenbankarchitektur.png" alt="Datenbankarchitektur" title="Datenbankarchitektur">
 
 Das System verwendet eine relationale Datenbank zur Speicherung aller relevanten Daten und besteht aus Tabellen für Anwesenheit, Mitarbeiter und Urlaub.
 
@@ -221,7 +221,7 @@ Finale Version: 29.09.2023
 <h2>Benutzerhandbuch</h2>
 
 </br>
-1. Erste Schritte
+<h4>1. Erste Schritte</h4>
 
   1.1. Systemanforderungen
     Java Runtime Environment (JRE) installiert
@@ -231,7 +231,7 @@ Finale Version: 29.09.2023
     Die Software wird als Java-Anwendung geliefert. Stellen Sie sicher, dass die JRE installiert ist und führen Sie die Anwendung aus.
 
 </br>
-2. Anmelden
+<h4>2. Anmelden</h4>
 
 	Nach dem Starten der Software wird ein Anmeldebildschirm angezeigt:
 
@@ -246,7 +246,8 @@ Finale Version: 29.09.2023
     Folgen Sie den Anweisungen, um ein neues Profil zu erstellen.
 
 </br>
-3. Hauptbildschirm
+<h4>3. Hauptbildschirm</h4>
+
 
 	Abhängig von Ihrer Position (z. B. Manager) haben Sie möglicherweise unterschiedliche Ansichten und Funktionen.
 
@@ -268,7 +269,8 @@ Finale Version: 29.09.2023
     Der Mitarbeiter wird benachrichtigt, sobald sich der Status des Antrages geändert hat. 
 
 </br>
-4. Bearbeiten der Tabellen
+<h4>4. Bearbeiten der Tabellen</h4>
+
 
 	Es können beide Tabellen (Arbeitszeit- und Urlaubstabelle) bearbeitet werden
 
@@ -281,11 +283,13 @@ Finale Version: 29.09.2023
     Klicken Sie auf "Speichern", um die Änderungen zu speichern und den Bearbeitungsmodus zu verlassen.
 
 </br>
-5. Beenden der Software
+<h4>5. Beenden der Software</h4>
+
 
   Schließen Sie einfach das Hauptfenster, um die Anwendung zu beenden. Sie können sich jedoch auch abmelden, indem Sie auf “Logout” klicken. 
 
 </br>
-6. Support und Hilfe
+<h4>6. Support und Hilfe</h4>
+
 
   Bei technischen Problemen oder Fragen zur Software wenden Sie sich bitte an den Support bei Alexander Ullmann
