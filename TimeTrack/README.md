@@ -95,28 +95,33 @@ Management
 
 <h4>Detaillierte Funktionale Anforderungen (Szenarios & Screens)</h4>
 
-Mitarbeiterinformationen
+<h5>Mitarbeiterinformationen</h5>
+<h5></h5>
+
+
 Erfassung: Mitarbeiterinformationen wie Name, ID, Kontaktinformationen, Position, und Anstellungsdatum sollen hier erfasst werden. 
 Suche: Benutzer soll nach spezifischen Mitarbeitern suchen können. 
 Aktualisierung: Mitarbeiterinformationen können bearbeitet und aktualisiert werden. 
 Löschen: Individuelle Mitarbeiter soll man löschen können.
-Anwesenheitsverfolgung
+
+<h5>Anwesenheitsverfolgung</h5>
 Einchecken/Auschecken: Mitarbeiter können ihre täglichen Dienstzeiten registrieren indem sie sich an- und abmelden.
 Überwachung: Das System berechnet die Gesamtstunden der Mitarbeiter und kann dadurch Unregelmäßigkeiten festlegen. 
-Abwesenheitsverwaltung
+
+<h5>Abwesenheitsverwaltung</h5>
 Urlaubsantrag: Mitarbeiter können Urlaube beantragen.
 Krankenstand: Mitarbeiter können ihren Krankenstand eintragen.
 Genehmigung: Manager kann diese genehmigen oder ablehnen.
 Übersicht: Mitarbeiter und Manager können Urlaubsanfragen sehen. 
 
+<h5>Leistungsbewertung</h5>
 
-Spezielle Abhängigkeiten / nicht funktionale Anforderungen
-Keine.
-Leistungsbewertung
 Leistungsindikatoren: Festlegung der KPIs (z.B. gelöste Tickets pro Tag)
-Bewertung: Eine Möglichkeit für Manager um Feedback zu geben.  
+Bewertung: Eine Möglichkeit für Manager um Feedback zu geben. 
 
-Schnittstellen
+
+<h4>Schnittstellen</h4>
+
 Datenbankschnittstelle:
 Direkte Interaktion mit SQLite durch JDBC.
 Abfragen, Hinzufügen, Bearbeiten, und Löschen von Einträgen (CRUD Funktionalität). 
@@ -125,11 +130,12 @@ Benutzeroberfläche:
 Entwicklung mit JavaFX.
 Verschiedene Ansichten die Funktionen repräsentieren. 
 
-Benutzerschnittstellen (GUI)
+<h5>Benutzerschnittstellen (GUI)</h5>
+
 Siehe beiliegende Datei (im Ordner “readMe” -> “TimeTrack-Wireframe.png”)
 
+<h4>Nicht-Funktionale Anforderungen</h4>
 
-Nicht-Funktionale Anforderungen 
 Vorgaben zu Hardware und Software
 
 Hardwarevorgaben gibt es wenige da die Anwendung nicht viel beansprucht. Jedoch sollte es genügend Speicherplatz geben, um Daten speichern zu können. 
@@ -209,7 +215,7 @@ Finale Version: 29.09.2023
 	Java Runtime Environment (JRE) installiert
 	Datenbankverbindung eingerichtet
 1.2. Installation
-	Die Software wird als Java-Anwendung geliefert. Stellen Sie sicher, dass die JRE 			installiert ist und führen Sie die Anwendung aus.
+	Die Software wird als Java-Anwendung geliefert. Stellen Sie sicher, dass die JRE installiert ist und führen Sie die Anwendung aus.
 
 2. Anmelden
 	Nach dem Starten der Software wird ein Anmeldebildschirm angezeigt:
