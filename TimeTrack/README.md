@@ -58,23 +58,30 @@ TimeTrack wird mit einer relationalen Datenbank erstellt und verwendet SQL um mi
 
 TimeTrack soll als Werkzeug für die Personalverwaltung dienen, um effizientere und einfachere Prozesse zu gestalten.
 
+<ul>
+  <li>Mitarbeiterinformationen:</li>
+  Erfassung und Verwaltung von Daten der Mitarbeiter.
+  Aktualisierung der Informationen.
+  Suche nach bestimmten Mitarbeitern.
 
-Mitarbeiterinformationen:
-Erfassung und Verwaltung von Daten der Mitarbeiter.
-Aktualisierung der Informationen.
-Suche nach bestimmten Mitarbeitern.
+  <li>Anwesenheitsverfolgung:</li>
+  Mitarbeiter können bei Dienstbeginn oder Dienstende ein- und auschecken.
+  Überwachung der Gesamtstunden und Abwesenheit.
+
+  <li>Abwesenheitsverfolgung:</li>
+  Mitarbeiter können Urlaubsanträge stellen.
+  Manager können diese Anträge genehmigen oder ablehnen.
+  Mitarbeiter können sich krank melden und diesbezüglich notwendige Dokumente hochladen.
+  Überblick der Urlaubstage und Krankenstände.
+</ul>
 
 
-Anwesenheitsverfolgung:
-Mitarbeiter können bei Dienstbeginn oder Dienstende ein- und auschecken.
-Überwachung der Gesamtstunden und Abwesenheit.
 
 
-Abwesenheitsverfolgung:
-Mitarbeiter können Urlaubsanträge stellen.
-Manager können diese Anträge genehmigen oder ablehnen.
-Mitarbeiter können sich krank melden und diesbezüglich notwendige Dokumente hochladen.
-Überblick der Urlaubstage und Krankenstände.
+
+
+
+
 
 </br>
 <h4>Wesentliche Qualitätsanforderungen und Rahmenbedingungen</h4>
@@ -163,16 +170,18 @@ Datenbanken, die ich im Java Kurs vom WIFI mir angeeignet habe.
 <h4>Schnittstellen</h4>
 
 <b>Datenbankschnittstelle: </b>
-Direkte Interaktion mit SQLite durch JDBC.
-Abfragen, Hinzufügen, Bearbeiten, und Löschen von Einträgen (CRUD Funktionalität).
+<li>Direkte Interaktion mit SQLite durch JDBC.</li>
+<li>Abfragen, Hinzufügen, Bearbeiten, und Löschen von Einträgen (CRUD Funktionalität).</li>
+
 
 <b>Benutzeroberfläche:</b>
-Entwicklung mit JavaFX.
-Verschiedene Ansichten die Funktionen repräsentieren.
+<li>Entwicklung mit JavaFX.</li>
+<li>Verschiedene Ansichten die Funktionen repräsentieren.</li>
+
 
 <h5>Benutzerschnittstellen (GUI)</h5>
+<li>Siehe beiliegende Datei (im Ordner “readMe” -> “TimeTrack-Wireframe.png”)</li>
 
-Siehe beiliegende Datei (im Ordner “readMe” -> “TimeTrack-Wireframe.png”)
 
 </br>
 <h4>Nicht-Funktionale Anforderungen</h4>
