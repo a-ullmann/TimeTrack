@@ -35,7 +35,7 @@ aufnehmen, verarbeiten und ausgeben kann.
 <h2>Grobe Spezifikation</h2>
 
 
-<h4>Zusammenhang mit bereits bestehenden Systemen</h4>
+<h3>Zusammenhang mit bereits bestehenden Systemen</h3>
 
 
 TimeTrack ist ein eigenständiges System mit Ausnahme des Datenbankmanagement, welches mit SQLite entwickelt wird. Es
@@ -47,13 +47,13 @@ Gehaltsberechnung oder Rekrutierung. Noch dazu ist der Vorteil, dass TimeTrack e
 Nachteil, da es mit keinen bestehenden Anwendungen verbunden werden kann.
 
 </br>
-<h4>Schnittstellen</h4>
+<h3>Schnittstellen</h3>
 
 
 TimeTrack wird mit einer relationalen Datenbank erstellt und verwendet SQL um mit dieser zu interagieren.
 
 </br>
-<h4>Überblick über die geforderte Funktionalität</h4>
+<h3>Überblick über die geforderte Funktionalität</h3>
 
 
 TimeTrack soll als Werkzeug für die Personalverwaltung dienen, um effizientere und einfachere Prozesse zu gestalten.
@@ -84,7 +84,7 @@ TimeTrack soll als Werkzeug für die Personalverwaltung dienen, um effizientere 
 
 
 </br>
-<h4>Wesentliche Qualitätsanforderungen und Rahmenbedingungen</h4>
+<h3>Wesentliche Qualitätsanforderungen und Rahmenbedingungen</h3>
 
 </br>
 Technologische Vorgaben:
@@ -111,7 +111,7 @@ Datenbanken, die ich im Java Kurs vom WIFI mir angeeignet habe.
 </br>
 <h2>Detaillierte Spezifikation</h2>
 
-<h4>Akteure des Systems (Personas) </h4>
+<h3>Akteure des Systems (Personas) </h3>
 
 <ul>
   <li>Mitarbeiter</li>
@@ -119,7 +119,7 @@ Datenbanken, die ich im Java Kurs vom WIFI mir angeeignet habe.
 </ul>
 
 </br>
-<h4>Detaillierte Funktionale Anforderungen (Szenarios & Screens)</h4>
+<h3>Detaillierte Funktionale Anforderungen (Szenarios & Screens)</h3>
 
 <h5>Mitarbeiterinformationen</h5>
 
@@ -167,24 +167,24 @@ Datenbanken, die ich im Java Kurs vom WIFI mir angeeignet habe.
 
 
 </br>
-<h4>Schnittstellen</h4>
+<h3>Schnittstellen</h3>
 
 <b>Datenbankschnittstelle: </b>
 <li>Direkte Interaktion mit SQLite durch JDBC.</li>
 <li>Abfragen, Hinzufügen, Bearbeiten, und Löschen von Einträgen (CRUD Funktionalität).</li>
 
-
+</br>
 <b>Benutzeroberfläche:</b>
 <li>Entwicklung mit JavaFX.</li>
 <li>Verschiedene Ansichten die Funktionen repräsentieren.</li>
 
 
 <h5>Benutzerschnittstellen (GUI)</h5>
-<li>Siehe beiliegende Datei (im Ordner “readMe” -> “TimeTrack-Wireframe.png”)</li>
+Siehe beiliegende Datei (im Ordner “readMe” -> “TimeTrack-Wireframe.png”)
 
 
 </br>
-<h4>Nicht-Funktionale Anforderungen</h4>
+<h3>Nicht-Funktionale Anforderungen</h3>
 
 
 <h5>Vorgaben zu Hardware und Software</h5>
@@ -198,15 +198,20 @@ Die Software-Umgebung dieser Anwendung entsteht aus Java JDK, IntelliJ IDEA und 
 
 <h5>Security & Safety</h5>
 
+<ul>
+  <li><b>Authentifizierung: </b>Nutzer registrieren sich und erstellen somit ihr eigenes Passwort welches gehasht und
+    gesalted
+    wird. Nur authentifizierte Nutzer können auf das System zugreifen.</li>
+  <li><b>Autorisierung: </b>Mitarbeiter können nur ihre eigenen Daten sehen. Manager haben erweiterte Berechtigungen und
+    können alle Mitarbeiterdaten abrufen sowie bearbeiten.</li>
+</ul>
 
-<b>Authentifizierung: </b>Nutzer registrieren sich und erstellen somit ihr eigenes Passwort welches gehasht und gesalted
-wird. Nur authentifizierte Nutzer können auf das System zugreifen.
 
-<b>Autorisierung: </b>Mitarbeiter können nur ihre eigenen Daten sehen. Manager haben erweiterte Berechtigungen und
-können alle Mitarbeiterdaten abrufen sowie bearbeiten.
+
+
 
 </br>
-<h4>Systemabgrenzung, Systemarchitektur und Datenhaltung</h4>
+<h3>Systemabgrenzung, Systemarchitektur und Datenhaltung</h3>
 
 
 TimeTrack ist als Standalone-Applikation konzipiert. Es bietet den Benutzern (Mitarbeiter und Manager) die Möglichkeit,
@@ -224,7 +229,7 @@ Anwesenheit, Mitarbeiter und Urlaub.
 
 
 </br>
-<h4>Rahmenbedingungen</h4>
+<h3>Rahmenbedingungen</h3>
 
 
 
@@ -266,7 +271,7 @@ Finale Version: 29.09.2023
 <h2>Benutzerhandbuch</h2>
 
 </br>
-<h4>1. Erste Schritte</h4>
+<h3>1. Erste Schritte</h3>
 
 1.1. Systemanforderungen
 Java Runtime Environment (JRE) installiert
@@ -277,7 +282,7 @@ Die Software wird als Java-Anwendung geliefert. Stellen Sie sicher, dass die JRE
 Anwendung aus.
 
 </br>
-<h4>2. Anmelden</h4>
+<h3>2. Anmelden</h3>
 
 Nach dem Starten der Software wird ein Anmeldebildschirm angezeigt:
 
@@ -292,7 +297,7 @@ Klicken Sie auf "Registrieren".
 Folgen Sie den Anweisungen, um ein neues Profil zu erstellen.
 
 </br>
-<h4>3. Hauptbildschirm</h4>
+<h3>3. Hauptbildschirm</h3>
 
 
 Abhängig von Ihrer Position (z. B. Manager) haben Sie möglicherweise unterschiedliche Ansichten und Funktionen.
@@ -317,7 +322,7 @@ Sie können eine Liste aller Mitarbeiter sehen und ihre Urlaubsanträge überpr�
 Der Mitarbeiter wird benachrichtigt, sobald sich der Status des Antrages geändert hat.
 
 </br>
-<h4>4. Bearbeiten der Tabellen</h4>
+<h3>4. Bearbeiten der Tabellen</h3>
 
 
 Es können beide Tabellen (Arbeitszeit- und Urlaubstabelle) bearbeitet werden
@@ -331,14 +336,14 @@ Geben Sie die neuen Daten ein.
 Klicken Sie auf "Speichern", um die Änderungen zu speichern und den Bearbeitungsmodus zu verlassen.
 
 </br>
-<h4>5. Beenden der Software</h4>
+<h3>5. Beenden der Software</h3>
 
 
 Schließen Sie einfach das Hauptfenster, um die Anwendung zu beenden. Sie können sich jedoch auch abmelden, indem Sie auf
 “Logout” klicken.
 
 </br>
-<h4>6. Support und Hilfe</h4>
+<h3>6. Support und Hilfe</h3>
 
 
 Bei technischen Problemen oder Fragen zur Software wenden Sie sich bitte an den Support bei Alexander Ullmann
