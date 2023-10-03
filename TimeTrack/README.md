@@ -121,7 +121,7 @@ Datenbanken, die ich im Java Kurs vom WIFI mir angeeignet habe.
 </br>
 <h3>Detaillierte Funktionale Anforderungen (Szenarios & Screens)</h3>
 
-<h5>Mitarbeiterinformationen</h5>
+<b>Mitarbeiterinformationen</b>
 
 <ul>
   <li><b>Erfassung:</b> Mitarbeiterinformationen wie Name, ID, Kontaktinformationen, Position, und Anstellungsdatum
@@ -132,7 +132,7 @@ Datenbanken, die ich im Java Kurs vom WIFI mir angeeignet habe.
 </ul>
 
 </br>
-<h5>Anwesenheitsverfolgung</h5>
+<b>Anwesenheitsverfolgung</b>
 
 <ul>
   <li><b>Einchecken/Auschecken:</b> Mitarbeiter können ihre täglichen Dienstzeiten registrieren indem sie sich an- und
@@ -143,7 +143,7 @@ Datenbanken, die ich im Java Kurs vom WIFI mir angeeignet habe.
 
 
 </br>
-<h5>Abwesenheitsverwaltung</h5>
+<b>Abwesenheitsverwaltung</b>
 
 <ul>
   <li><b>Urlaubsantrag: </b>Mitarbeiter können Urlaube beantragen.</li>
@@ -157,7 +157,7 @@ Datenbanken, die ich im Java Kurs vom WIFI mir angeeignet habe.
 
 
 </br>
-<h5>Leistungsbewertung</h5>
+<b>Leistungsbewertung</b>
 
 <ul>
   <li><b>Leistungsindikatoren: </b>Festlegung der KPIs (z.B. gelöste Tickets pro Tag)</li>
@@ -179,7 +179,7 @@ Datenbanken, die ich im Java Kurs vom WIFI mir angeeignet habe.
 <li>Verschiedene Ansichten die Funktionen repräsentieren.</li>
 
 
-<h5>Benutzerschnittstellen (GUI)</h5>
+<b>Benutzerschnittstellen (GUI)</b>
 Siehe beiliegende Datei (im Ordner “readMe” -> “TimeTrack-Wireframe.png”)
 
 
@@ -187,7 +187,7 @@ Siehe beiliegende Datei (im Ordner “readMe” -> “TimeTrack-Wireframe.png”
 <h3>Nicht-Funktionale Anforderungen</h3>
 
 
-<h5>Vorgaben zu Hardware und Software</h5>
+<b>Vorgaben zu Hardware und Software</b>
 
 
 Hardwarevorgaben gibt es wenige da die Anwendung nicht viel beansprucht. Jedoch sollte es genügend Speicherplatz geben,
@@ -196,7 +196,7 @@ um Daten speichern zu können.
 Die Software-Umgebung dieser Anwendung entsteht aus Java JDK, IntelliJ IDEA und einer SQLite Datenbank.
 
 
-<h5>Security & Safety</h5>
+<b>Security & Safety</b>
 
 <ul>
   <li><b>Authentifizierung: </b>Nutzer registrieren sich und erstellen somit ihr eigenes Passwort welches gehasht und
@@ -232,29 +232,37 @@ Anwesenheit, Mitarbeiter und Urlaub.
 <h3>Rahmenbedingungen</h3>
 
 
+<b>Technologische Vorgaben:</b>
+<ul>
+  <li>Die Software muss in Java entwickelt werden und auf der JVM laufen.</li>
+  <li>Es muss eine Schnittstelle zu SQL-basierten Datenbanken geben.</li>
+  <li>Es muss eine grafische Benutzeroberfläche haben.</li>
+</ul>
 
-Technologische Vorgaben:
 
-Die Software muss in Java entwickelt werden und auf der JVM laufen.
-Es muss eine Schnittstelle zu SQL-basierten Datenbanken geben.
-Es muss eine grafische Benutzeroberfläche haben.
 
-Kompatibilität:
+<b>Kompatibilität:</b>
+<ul>
+  <li>Die Software ist eine stand-alone Anwendung und muss auf Windows oder macOS Betriebssystemen lauffähig sein.</li>
+</ul>
 
-Die Software ist eine stand-alone Anwendung und muss auf Windows oder macOS Betriebssystemen lauffähig sein.
 
-Standards:
+<b>Standards:</b>
+<ul>
+  <li>Passwörter müssen gehasht und gesichert sein.</li>
+</ul>
 
-Passwörter müssen gehasht und gesichert sein.
+<b>Zeitliche Vorgaben:</b>
+<ul>
+  <li>Das Projekt muss bis 29.09.2023 abgeschlossen sein.</li>
+</ul>
 
-Zeitliche Vorgaben:
+<b>Wichtige Produktmerkmale:</b>
+<ul>
+  <li>Die Software muss eine Benutzerverwaltung ermöglichen, einschließlich Rollenbasierendem Zugriff.</li>
+  <li>Es muss möglich sein, Berichte basierend auf den gespeicherten Daten zu generieren.</li>
+</ul>
 
-Das Projekt muss bis 29.09.2023 abgeschlossen sein.
-
-Wichtige Produktmerkmale:
-
-Die Software muss eine Benutzerverwaltung ermöglichen, einschließlich Rollenbasierendem Zugriff.
-Es muss möglich sein, Berichte basierend auf den gespeicherten Daten zu generieren.
 
 
 <b>Nicht enthalten:</b>
@@ -273,28 +281,36 @@ Finale Version: 29.09.2023
 </br>
 <h3>1. Erste Schritte</h3>
 
-1.1. Systemanforderungen
-Java Runtime Environment (JRE) installiert
-Datenbankverbindung eingerichtet
+<b>1.1. Systemanforderungen</b>
+<ul>
+  <li>Java Runtime Environment (JRE) installiert</li>
+  <li>Datenbankverbindung eingerichtet</li>
+</ul>
 
-1.2. Installation
-Die Software wird als Java-Anwendung geliefert. Stellen Sie sicher, dass die JRE installiert ist und führen Sie die
-Anwendung aus.
+<b>1.2. Installation</b>
+<ul>
+  <li>Die Software wird als Java-Anwendung geliefert. Stellen Sie sicher, dass die JRE installiert ist und führen Sie
+    die Anwendung aus.</li>
+</ul>
+
 
 </br>
 <h3>2. Anmelden</h3>
 
 Nach dem Starten der Software wird ein Anmeldebildschirm angezeigt:
 
-2.1. Anmeldung
-Geben Sie Ihren Benutzernamen und Ihr Passwort ein.
-Klicken Sie auf "Login".
+<b>2.1. Anmeldung</b>
+<ul>
+  <li>Geben Sie Ihren Benutzernamen und Ihr Passwort ein.</li>
+  <li>Klicken Sie auf "Login".</li>
+  <li>Wenn Ihre Daten korrekt sind, werden Sie zum Hauptbildschirm weitergeleitet.</li>
+</ul>
 
-Wenn Ihre Daten korrekt sind, werden Sie zum Hauptbildschirm weitergeleitet.
-
-2.2. Neues Profil Erstellen
-Klicken Sie auf "Registrieren".
-Folgen Sie den Anweisungen, um ein neues Profil zu erstellen.
+<b>2.2. Neues Profil Erstellen</b>
+<ul>
+  <li>Klicken Sie auf "Registrieren".</li>
+  <li>Folgen Sie den Anweisungen, um ein neues Profil zu erstellen.</li>
+</ul>
 
 </br>
 <h3>3. Hauptbildschirm</h3>
@@ -302,24 +318,36 @@ Folgen Sie den Anweisungen, um ein neues Profil zu erstellen.
 
 Abhängig von Ihrer Position (z. B. Manager) haben Sie möglicherweise unterschiedliche Ansichten und Funktionen.
 
-3.1. Arbeitszeit Verfolgen (für alle Benutzer)
-Wählen Sie “Check in” um das Datum und die Uhrzeit für den Beginn Ihrer Arbeitszeit zu registrieren. Wählen Sie “Check
-out” um das Ende Ihrer Arbeitszeit zu protokollieren. Das System berechnet Ihre gearbeiteten Stunden. Vergangene
-Arbeitszeiten können mit “Download Report” als CSV Datei heruntergeladen werden.
+<b>3.1. Arbeitszeit Verfolgen (für alle Benutzer)</b>
+<ul>
+  <li>Wählen Sie “Check in” um das Datum und die Uhrzeit für den Beginn Ihrer Arbeitszeit zu registrieren.</li>
+  <li>Wählen Sie “Check out” um das Ende Ihrer Arbeitszeit zu protokollieren.</li>
+  <li>Das System berechnet Ihre gearbeiteten Stunden.</li>
+  <li>Vergangene Arbeitszeiten können mit “Download Report” als CSV Datei heruntergeladen werden.</li>
+</ul>
 
-3.2. Überwachung der Arbeitszeit (nur für Manager)
-Sie können eine Liste aller Mitarbeiter sehen und ihre Arbeitszeitdetails überprüfen.
-Es ist möglich, die Daten zu bearbeiten, falls Änderungen erforderlich sind, oder auch löschen und hinzufügen.
+<b>3.2. Überwachung der Arbeitszeit (nur für Manager)</b>
+<ul>
+  <li>Sie können eine Liste aller Mitarbeiter sehen und ihre Arbeitszeitdetails überprüfen.</li>
+  <li>Es ist möglich, die Daten zu bearbeiten, falls Änderungen erforderlich sind, oder auch löschen und hinzufügen.
+  </li>
+</ul>
 
-3.3. Urlaub beantragen (für alle Benutzer)
-Im Hauptmenü können Sie auf “Urlaub beantragen” klicken.
-Wählen Sie in diesem View das Datum und die Uhrzeit für den Beginn und das Ende Ihres Urlaubes.
-Klicken Sie auf “Beantragen”. Ihr Manager wird diesen dann entweder bestätigen, verewigen, oder auf ausstehend setzten.
-Sie werden über den Status benachrichtig, indem ein Button im Urlaub Menü erscheint.
+<b>3.3. Urlaub beantragen (für alle Benutzer)</b>
+<ul>
+  <li>Im Hauptmenü können Sie auf “Urlaub beantragen” klicken.</li>
+  <li>Wählen Sie in diesem View das Datum und die Uhrzeit für den Beginn und das Ende Ihres Urlaubes.</li>
+  <li>Klicken Sie auf “Beantragen”. Ihr Manager wird diesen dann entweder bestätigen, verewigen, oder auf ausstehend
+    setzten.</li>
+  <li>Sie werden über den Status benachrichtig, indem ein Button im Urlaub Menü erscheint.</li>
+</ul>
 
-3.4. Überwachung der Urlaube (nur für Manager)
-Sie können eine Liste aller Mitarbeiter sehen und ihre Urlaubsanträge überprüfen und darauf auch reagieren.
-Der Mitarbeiter wird benachrichtigt, sobald sich der Status des Antrages geändert hat.
+<b>3.4. Überwachung der Urlaube (nur für Manager)</b>
+<ul>
+  <li>Sie können eine Liste aller Mitarbeiter sehen und ihre Urlaubsanträge überprüfen und darauf auch reagieren.</li>
+  <li>Der Mitarbeiter wird benachrichtigt, sobald sich der Status des Antrages geändert hat.</li>
+</ul>
+
 
 </br>
 <h3>4. Bearbeiten der Tabellen</h3>
@@ -327,13 +355,19 @@ Der Mitarbeiter wird benachrichtigt, sobald sich der Status des Antrages geände
 
 Es können beide Tabellen (Arbeitszeit- und Urlaubstabelle) bearbeitet werden
 
-4.1. Aktivieren des Bearbeitungsmodus
-Klicken Sie auf "Bearbeiten", um die Tabelle bearbeitbar zu machen.
+<b>2.1. Anmeldung</b>
+<ul>
+  <li>Geben Sie Ihren Benutzernamen und Ihr Passwort ein.</li>
+  <li>Klicken Sie auf "Login".</li>
+  <li>Wenn Ihre Daten korrekt sind, werden Sie zum Hauptbildschirm weitergeleitet.</li>
+</ul>
 
-4.2. Ändern von Arbeitszeit- oder Urlaubsdaten
-Doppelklicken Sie auf einen Eintrag in der Tabelle.
-Geben Sie die neuen Daten ein.
-Klicken Sie auf "Speichern", um die Änderungen zu speichern und den Bearbeitungsmodus zu verlassen.
+<b>2.2. Neues Profil Erstellen</b>
+<ul>
+  <li>Klicken Sie auf "Registrieren".</li>
+  <li>Folgen Sie den Anweisungen, um ein neues Profil zu erstellen.</li>
+</ul>
+
 
 </br>
 <h3>5. Beenden der Software</h3>
